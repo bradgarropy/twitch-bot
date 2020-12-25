@@ -22,13 +22,16 @@
         "url": "https://github.com/bradgarropy/node-starter"
     },
     "scripts": {
-        "start": "node src/index.js",
+        "start": "nodemon src/index.js",
         "lint": "eslint .",
         "lint:fix": "eslint . --fix",
         "test": "jest --passWithNoTests",
         "test:watch": "npm run test -- --watch"
     },
-    "dependencies": {},
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "tmi.js": "^1.7.1"
+    },
     "devDependencies": {
         "@bradgarropy/eslint-config": "^1.1.0",
         "babel-eslint": "^10.1.0",
@@ -36,6 +39,7 @@
         "eslint-config-prettier": "^7.1.0",
         "eslint-plugin-simple-import-sort": "^7.0.0",
         "jest": "^26.6.3",
+        "nodemon": "^2.0.6",
         "prettier": "^2.2.1"
     }
 }

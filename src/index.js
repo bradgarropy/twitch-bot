@@ -1,1 +1,6 @@
-console.log("Hello world!")
+require("./commands/ama")
+require("./commands/discord")
+require("./commands/donate")
+require("./commands/dotfiles")
+require("./commands/playlist")
+require("./commands/uses")
