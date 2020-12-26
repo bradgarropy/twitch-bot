@@ -1,15 +1,17 @@
 {
-    "name": "node-starter",
-    "version": "1.1.0",
-    "description": "🟢 node.js javascript starter",
+    "name": "twitch-bot",
+    "version": "1.0.0",
+    "description": "🤖 twitch chat bot",
     "keywords": [
         "node",
         "eslint",
-        "prettier"
+        "prettier",
+        "twitch",
+        "bot"
     ],
-    "homepage": "https://github.com/bradgarropy/node-starter",
+    "homepage": "https://github.com/bradgarropy/twitch-bot",
     "bugs": {
-        "url": "https://github.com/bradgarropy/node-starter/issues"
+        "url": "https://github.com/bradgarropy/twitch-bot/issues"
     },
     "license": "MIT",
     "author": {
@@ -19,7 +21,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/bradgarropy/node-starter"
+        "url": "https://github.com/bradgarropy/twitch-bot"
     },
     "scripts": {
         "start": "nodemon src/index.js",
