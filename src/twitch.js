@@ -1,4 +1,5 @@
 require("dotenv").config()
+
 const tmi = require("tmi.js")
 
 const twitch = new tmi.Client({
