@@ -29,6 +29,7 @@
         "test:watch": "npm run test -- --watch"
     },
     "dependencies": {
+        "@bradgarropy/hue-sdk": "0.0.1",
         "dotenv": "^8.2.0",
         "node-fetch": "^2.6.1",
         "tmi.js": "^1.7.1"
