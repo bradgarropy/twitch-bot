@@ -1,13 +1,15 @@
 {
     "name": "twitch-bot",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "🤖 twitch chat bot",
     "keywords": [
         "node",
         "eslint",
         "prettier",
         "twitch",
-        "bot"
+        "bot",
+        "hue",
+        "vscode"
     ],
     "homepage": "https://github.com/bradgarropy/twitch-bot",
     "bugs": {
@@ -31,7 +33,7 @@
         "test:watch": "npm run test -- --watch"
     },
     "dependencies": {
-        "@bradgarropy/hue-sdk": "0.0.1",
+        "@bradgarropy/hue-sdk": "^1.0.0",
         "dotenv": "^8.2.0",
         "node-fetch": "^2.6.1",
         "tmi.js": "^1.7.1"
