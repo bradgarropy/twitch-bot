@@ -8,4 +8,5 @@ require("./commands/uses")
 
 // channel point redemptions
 require("./redemptions/lights")
+require("./redemptions/plug")
 require("./redemptions/theme")
