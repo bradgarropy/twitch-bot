@@ -6,11 +6,16 @@ const lights = [13, 14, 15, 16]
 
 twitch.on("message", (channel, tags, message) => {
     if (tags["custom-reward-id"] === id) {
-        hue.setColors(lights, message)
+        const color = hue.setColors(lights, message)
+        let colorMessage = message.toUpperCase()
+
+        if (message === "random") {
+            colorMessage = colorMessage + ` (${color.toUpperCase()})`
+        }
 
         twitch.say(
             channel,
-            `@${tags.username} changed the lights to ${message.toUpperCase()}!`,
+            `@${tags.username} changed the lights to ${colorMessage}!`,
         )
     }
 })

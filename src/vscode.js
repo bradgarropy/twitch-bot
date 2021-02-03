@@ -19,11 +19,13 @@ const themes = [
 
 const setTheme = theme => {
     if (theme === "random") {
-        setRandomTheme()
-    } else {
-        settings["workbench.colorTheme"] = theme
-        fs.writeFileSync(path, JSON.stringify(settings, null, 4))
+        const randomTheme = setRandomTheme()
+        return randomTheme
     }
+
+    settings["workbench.colorTheme"] = theme
+    fs.writeFileSync(path, JSON.stringify(settings, null, 4))
+    return theme
 }
 
 const setRandomTheme = () => {
@@ -32,6 +34,8 @@ const setRandomTheme = () => {
 
     settings["workbench.colorTheme"] = theme
     fs.writeFileSync(path, JSON.stringify(settings, null, 4))
+
+    return theme
 }
 
 module.exports = {setTheme}
