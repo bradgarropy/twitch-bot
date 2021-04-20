@@ -6,7 +6,6 @@ twitch.on("message", (channel, tags, message) => {
             channel,
             `
                 https://bradgarropy.com/discord
-                https://bradgarropy.com/donate
                 https://bradgarropy.com/sponsor
                 https://bradgarropy.com/store
             `,
