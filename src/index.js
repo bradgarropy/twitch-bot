@@ -2,7 +2,6 @@
 require("./commands/ama")
 require("./commands/discord")
 require("./commands/dotfiles")
-require("./commands/extralife")
 require("./commands/music")
 require("./commands/podcast")
 require("./commands/promo")
@@ -11,6 +10,9 @@ require("./commands/store")
 require("./commands/uses")
 require("./commands/wdw")
 require("./commands/webdevweekly")
+
+// disabled chat commands
+// require("./commands/extralife")
 
 // channel point redemptions
 require("./redemptions/lights")
