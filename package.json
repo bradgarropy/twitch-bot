@@ -1,6 +1,6 @@
 {
     "name": "twitch-bot",
-    "version": "1.8.2",
+    "version": "1.9.0",
     "description": "🤖 twitch chat bot",
     "keywords": [
         "node",
